@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="./assets/Logo.png" alt="Logo">
+    </header>
+    <main class="apresentacao">
+        <div class="container">
+            <section class="entrada">
+                <textarea class="texto__principal" placeholder="Digite um texto que você deseja criptografar ou descriptografar."></textarea>
+                <div class="botoes">
+                    <button id="btnCriptografar">Criptografar</button>
+                    <button id="btnDescriptografar">Descriptografar</button>
+                </div>
+                <p class="p-rodape">
+                    <img src="./assets/Group.png" alt="Ícone" class="icon"> Apenas letras minúsculas e sem acento.
+                </p>
+            </section>
+            <section class="saida">
+                <textarea class="texto__resultado" readonly placeholder="Nenhuma mensagem encontrada..."></textarea>
+                <button id="btnCopiar">Copiar</button>
+            </section>
+        </div>
+    </main>
+    <footer class="rodape">
+        <p>Desenvolido por Andryus Ferrari.</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
